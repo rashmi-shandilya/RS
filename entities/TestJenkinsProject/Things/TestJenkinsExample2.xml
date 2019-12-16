@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2019-12-16T07:13:09.101Z"
+         lastModifiedDate="2019-12-16T10:06:32.133Z"
          name="TestJenkinsExample2"
          projectName="TestJenkinsProject"
          published="false"
@@ -143,7 +143,7 @@
                             </FileRepository>
                             <GitRepoURL>
                             <![CDATA[
-                            https://github.com/rashmi-shandilya/TestJenkinsExcercise
+                            https://github.com/rashmi-shandilya/RS
                             ]]>
                             </GitRepoURL>
                             <Password></Password>
