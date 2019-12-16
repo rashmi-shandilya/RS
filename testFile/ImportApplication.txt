@@ -1,0 +1,25 @@
+try {
+    var result; 
+    //1. Pull request to the git repository
+    Things[me.GitThingName].Pull({
+    	Force: true /* BOOLEAN */
+    });
+    //2. install extensions if installExtensions is set to true
+    if (installExtensions) {
+        me.InstallExtensionsFromRepository({
+        	host: host /* STRING */
+        });
+    }
+    //3. import entities from source control
+     me.ImportEntitiesFromSourceControl();
+    //4. import user permissions
+     me.ImportUserPermissions();
+    //5. import system objects and location tables
+     me.ImportSysObjects({
+    	host: host /* STRING */
+    });
+    result = "Success"; 
+} catch (err) {
+    result = "Error " + err; 
+    logger.error(result); 
+}
